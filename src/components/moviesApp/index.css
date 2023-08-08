@@ -1,0 +1,104 @@
+.bg-container {
+  background-image: radial-gradient(red, black);
+  background-size: cover;
+  min-height: 100vh;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.header-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.heading {
+  color: #c2b6b9;
+  font-family: 'roboto';
+  font-size: 40px;
+}
+.search-input {
+  width: 500px;
+  height: 40px;
+  border-radius: 10px;
+  margin-left: 4px;
+  padding-left: 10px;
+  font-weight: bold;
+  background-color: #c2b6b9;
+}
+.search-button {
+  margin: 10px;
+  height: 50px;
+  font-weight: 500;
+  font-family: 'roboto';
+  width: 100px;
+  border-radius: 10px;
+  background-color: #423f40;
+  color: #ffff;
+  cursor: pointer;
+}
+.movies_list_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.pagination-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.pagination {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.pagination li {
+  margin: 0 5px;
+}
+
+.pagination a {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.active a {
+  background-color: #0b69ff;
+  color: #fff;
+}
+.filter-img {
+  font-size: 50px;
+  color: #ffffff;
+}
+.filter-container {
+  display: flex;
+  padding-left: 10px;
+  margin-top: 9px;
+  align-self: flex-start;
+  margin-top: 30px;
+}
+.input-filter {
+  height: 40px;
+  background-color: #c2b6b9;
+  border-radius: 10px;
+}
+.order-img {
+  font-size: 40px;
+  color: #ffffff;
+}
+.search-image {
+  width: 50%;
+}
+.search-heading {
+  text-align: center;
+  color: #ffffff;
+  font-size: 40px;
+  font-family: 'roboto';
+}

@@ -1,0 +1,12 @@
+.movie-card-container {
+  display: flex;
+  flex-direction: row;
+  background-color: #ffffff;
+  margin: 10px;
+  width: 1000px;
+  border-radius: 10px;
+}
+.movie-poster {
+  margin: 10px;
+  height: 300px;
+}
